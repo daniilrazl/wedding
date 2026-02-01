@@ -9,6 +9,7 @@
 body {
   font-family: 'Noto Serif', serif;
   min-height: max(884px, 100dvh);
+  background-color: #f5ece0;
   background-image: url('media/photo_2026-02-01_13-34-33.jpg');
   background-size: cover;
   background-attachment: fixed;
