@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="light" lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Свадьба Даниил и Надежда</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d4a373",
+                        "background-light": "#f5ece0",
+                        "background-dark": "#2d2822",
+                        "accent-beige": "#e9dcc9",
+                    },
+                    fontFamily: {
+                        "display": ["Noto Serif", "serif"],
+                        "calligraphy": ["Annabelle Cyr", "cursive"]
+                    },
+                    fontWeight: {
+                        "calligraphy": "700"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <link href="main.css" rel="stylesheet">
+    <script src="countdown.js"></script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#3d342a] dark:text-gray-100 min-h-screen">
+    <div
+        class="sticky top-0 z-50 flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-lg p-5 pb-3 justify-between border-b border-[#e6d5bc] dark:border-gray-800">
+        <h2
+            class="text-[#3d342a] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em] flex-1 text-center font-calligraphy">
+            Д &amp; Н</h2>
+    </div>
+    <div class="@container">
+        <div class="@[480px]:p-4">
+            <div class="relative flex min-h-[720px] flex-col gap-8 bg-cover bg-center bg-no-repeat @[480px]:rounded-xl items-center justify-between p-6"
+                style='background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%), url("media/111bae09e7a49a407c5241d217d1d48e.jpg");'>
+                <div class="flex flex-col gap-6 text-center w-full max-w-[500px]">
+                    <div class="p-2 py-14 mx-auto w-full">
+                        <div class="flex flex-col items-center gap-2 -ml-6">
+                            <span
+                                class="text-white font-bold leading-tight font-calligraphy text-[7rem] md:text-[6rem] tracking-[-0.02em] drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)] py-4">Даниил</span>
+                            <div class="flex items-center gap-6 w-full justify-center py-2 -mt-4 -mb-4">
+                                <div class="h-px bg-white/40 flex-1"></div>
+                                <span
+                                    class="text-white font-calligraphy text-5xl italic lowercase opacity-95 drop-shadow-md font-bold">&</span>
+                                <div class="h-px bg-white/40 flex-1"></div>
+                            </div>
+                            <span
+                                class="text-white font-bold leading-tight font-calligraphy text-[7rem] md:text-[6rem] tracking-[-0.02em] drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)] py-4">Надежда</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="h-px w-16 bg-primary mb-8"></div>
+                    <h2 class="text-white font-display font-bold tracking-widest text-4xl md:text-5xl drop-shadow-lg">
+                        22 мая 2026 года</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-16 beige-overlay">
+        <div class="flex items-center justify-center px-4 pb-10">
+            <span class="material-symbols-outlined font-bold color-dark-orange">calendar_month</span>
+            <h2 class="color-black font-bold leading-tight text-xl">Календарь событий</h2>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-8 p-4">
+            <div class="flex min-w-80 max-w-[420px] flex-1 flex-col gap-2 glass-card p-8 rounded-3xl shadow-xl">
+                <div class="flex items-center p-1 justify-between mb-6">
+                    <p class="text-[#3d342a] dark:text-white text-2xl font-bold leading-tight flex-1 text-center">Май
+                        2026</p>
+                </div>
+                <div class="grid grid-cols-7 text-center gap-y-4">
+                    <p class="font-bold color-dark-orange text-base h-12 flex items-center justify-center">Пн</p>
+                    <p class="font-bold color-dark-orange text-base h-12 flex items-center justify-center">Вт</p>
+                    <p class="font-bold color-dark-orange text-base h-12 flex items-center justify-center">Ср</p>
+                    <p class="font-bold color-dark-orange text-base h-12 flex items-center justify-center">Чт</p>
+                    <p class="font-bold color-dark-orange text-base h-12 flex items-center justify-center">Пт</p>
+                    <p class="font-bold color-dark-orange text-base h-12 flex items-center justify-center">Сб</p>
+                    <p class="font-bold color-dark-orange text-base h-12 flex items-center justify-center">Вс</p>
+                    <div class="col-start-5 h-12 flex items-center justify-center text-xl color-black">1</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">2</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">3</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">4</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">5</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">6</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">7</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">8</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">9</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">10</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">11</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">12</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">13</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">14</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">15</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">16</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">17</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">18</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">19</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">20</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">21</div>
+                    <div class="h-12 flex items-center justify-center relative">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <span class="material-symbols-outlined scale-[2.5] opacity-50 color-gold"
+                                style="font-variation-settings: 'FILL' 1">favorite</span>
+                        </div>
+                        <span class="h-12 flex items-center justify-center text-xl color-black-ff">22</span>
+                    </div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">23</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">24</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">25</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">26</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">27</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">28</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">29</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">30</div>
+                    <div class="h-12 flex items-center justify-center text-xl color-black">31</div>
+                </div>
+            </div>
+            <div
+                class="w-full max-w-[420px] glass-card p-8 rounded-3xl shadow-xl text-center border-2 border-primary/10">
+                <h2 class="font-display color-black font-bold mb-8 text-2xl">До свадьбы осталось:</h2>
+                <div class="grid grid-cols-4 gap-3">
+                    <div class="flex flex-col items-center">
+                        <div class="w-full bg-primary/10 dark:bg-primary/20 py-4 rounded-2xl border border-primary/20">
+                            <span id="days" class="text-3xl font-bold color-dark-orange"></span>
+                            <span class="text-[10px] uppercase tracking-widest color-black font-bold mt-1">Дней</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-full bg-primary/10 dark:bg-primary/20 py-4 rounded-2xl border border-primary/20">
+                            <span id="hours" class="text-3xl font-bold color-dark-orange"></span>
+                            <span class="text-[10px] uppercase tracking-widest color-black font-bold mt-1">Часов</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-full bg-primary/10 dark:bg-primary/20 py-4 rounded-2xl border border-primary/20">
+                            <span id="minutes" class="text-3xl font-bold color-dark-orange"></span>
+                            <span class="text-[10px] uppercase tracking-widest color-black font-bold mt-1">Минут</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-full bg-primary/10 dark:bg-primary/20 py-4 rounded-2xl border border-primary/20">
+                            <span id="seconds" class="text-3xl font-bold color-dark-orange"></span>
+                            <span class="text-[10px] uppercase tracking-widest color-black font-bold mt-1">Секунд</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-5 py-8">
+        <div class="glass-card rounded-3xl overflow-hidden shadow-xl">
+            <div class="h-72 bg-cover bg-bottom" style='background-image: url("media/3i1a9686-1024x683.jpg");'>
+            </div>
+            <div class="p-10">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="material-symbols-outlined font-bold color-dark-orange">account_balance</span>
+                    <h3 class="font-bold color-black text-xl">Церемония</h3>
+                </div>
+                <p class="color-black mb-8 text-2xl">Солигорский ЗАГС, ул. Ленина 37</p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-primary/10 dark:bg-primary/20 p-6 rounded-2xl text-center border border-primary/20">
+                        <p class="text-sm text-[#8a7a63] dark:text-primary uppercase font-bold tracking-wider mb-2">СБОР
+                        </p>
+                        <p class="text-3xl font-bold">15:40</p>
+                    </div>
+                    <div class="bg-primary/10 dark:bg-primary/20 p-6 rounded-2xl text-center border border-primary/20">
+                        <p class="text-sm text-[#8a7a63] dark:text-primary uppercase font-bold tracking-wider mb-2">
+                            Начало</p>
+                        <p class="text-3xl font-bold">16:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-5 py-8">
+        <div class="glass-card rounded-3xl overflow-hidden shadow-xl">
+            <div class="h-72 bg-cover bg-center" style='background-image: url("media/photo_2026-01-24_23-43-52.jpg");'>
+            </div>
+            <div class="p-10">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="material-symbols-outlined font-bold color-dark-orange">restaurant</span>
+                    <h3 class="font-bold color-black text-xl">Банкет</h3>
+                </div>
+                <p class="color-black mb-6 text-2xl font-bold">Кафе "Санта", г. Слуцк, ул. Гагарина
+                    10</p>
+                <p class="text-xl italic color-black leading-relaxed mb-4">Вас ждет праздничный
+                    ужин, развлекательная программа и теплая атмосфера.</p>
+            </div>
+        </div>
+    </div>
+    <div class="px-5 py-8">
+        <div class="glass-card p-10 rounded-3xl shadow-xl">
+            <div class="flex items-center gap-4 mb-8">
+                <span class="material-symbols-outlined font-bold color-dark-orange">checkroom</span>
+                <h2 class="font-bold color-black text-xl">Дресс-код</h2>
+            </div>
+            <div class="space-y-4">
+                <p class="color-black text-xl leading-relaxed">
+                    Для нас главное — ваше присутствие! Мы будем рады видеть вас в любом наряде.
+                </p>
+                <div class="pt-4 border-t border-primary/10">
+                    <p class="color-black text-xl italic font-display">
+                        Маленькая просьба: воздержаться от белых платьев.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-6 py-16">
+        <div class="glass-card p-10 rounded-3xl shadow-xl">
+            <div class="flex items-center gap-4 mb-10">
+                <span class="material-symbols-outlined font-bold color-dark-orange">directions_bus</span>
+                <h2 class="font-bold color-black text-xl">Трансфер</h2>
+            </div>
+            <div class="space-y-10">
+                <div class="flex gap-6 items-start">
+                    <div class="flex flex-col items-center">
+                        <div class="w-5 h-5 rounded-full bg-dark-orange mt-1.5 shadow-sm"></div>
+                        <div class="w-0.5 h-20 bg-dark-orange"></div>
+                    </div>
+                    <div>
+                        <p class="font-bold text-3xl color-dark-orange">17:00</p>
+                        <p class="text-xl color-black font-medium">Отправление от парковки ЗАГСа в кафе "Санта"
+                            г. Слуцк</p>
+                    </div>
+                </div>
+                <div class="flex gap-6 items-start">
+                    <div class="flex flex-col items-center">
+                        <div class="w-5 h-5 rounded-full bg-dark-orange mt-1.5"></div>
+                        <div class="w-0.5 h-20 bg-dark-orange"></div>
+                    </div>
+                    <div>
+                        <p class="font-bold text-3xl color-dark-orange">02:00</p>
+                        <p class="text-xl color-black font-medium">Обратный трансфер из кафе
+                            "Санта" в Солигорск</p>
+                        <p class="text-sm color-black mt-2 italic">(время выезда не окончательно и зависит от
+                            окончания мероприятия)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-5 py-20">
+        <h2 class="color-black font-bold leading-tight text-center mb-10 text-2xl">Тайминг дня</h2>
+        <div class="relative space-y-14">
+            <div class="relative flex items-center justify-between group">
+                <div
+                    class="flex items-center justify-center w-14 h-14 rounded-full border-4 border-background-light glass-card color-dark-orange shadow-md shrink-0 z-10">
+                    <span class="material-symbols-outlined text-2xl">group</span>
+                </div>
+                <div class="w-[calc(100%-4.5rem)] p-8 rounded-3xl glass-card shadow-lg">
+                    <time class="font-bold color-dark-orange text-2xl block mb-1">15:40</time>
+                    <div class="text-xl font-bold color-black">Встреча гостей у ЗАГСа</div>
+                </div>
+            </div>
+            <div class="relative flex items-center justify-between group">
+                <div
+                    class="flex items-center justify-center w-14 h-14 rounded-full border-4 border-background-light glass-card color-dark-orange shadow-md shrink-0 z-10">
+                    <span class="material-symbols-outlined text-2xl">favorite</span>
+                </div>
+                <div class="w-[calc(100%-4.5rem)] p-8 rounded-3xl glass-card shadow-lg">
+                    <time class="font-bold color-dark-orange text-2xl block mb-1">16:00</time>
+                    <div class="text-xl font-bold color-black">Торжественная регистрация</div>
+                </div>
+            </div>
+            <div class="relative flex items-center justify-between group">
+                <div
+                    class="flex items-center justify-center w-14 h-14 rounded-full border-4 border-background-light glass-card color-dark-orange shadow-md shrink-0 z-10">
+                    <span class="material-symbols-outlined text-2xl">directions_bus</span>
+                </div>
+                <div class="w-[calc(100%-4.5rem)] p-8 rounded-3xl glass-card shadow-lg">
+                    <time class="font-bold color-dark-orange text-2xl block mb-1">17:00</time>
+                    <div class="text-xl font-bold color-black">Трансфер в кафе от парковки ЗАГСа</div>
+                </div>
+            </div>
+            <div class="relative flex items-center justify-between group">
+                <div
+                    class="flex items-center justify-center w-14 h-14 rounded-full border-4 border-background-light glass-card color-dark-orange shadow-md shrink-0 z-10">
+                    <span class="material-symbols-outlined text-2xl">celebration</span>
+                </div>
+                <div class="w-[calc(100%-4.5rem)] p-8 rounded-3xl glass-card shadow-lg">
+                    <time class="font-bold color-dark-orange text-2xl block mb-1">18:00</time>
+                    <div class="text-xl font-bold color-black">Начало банкета и программы</div>
+                    <p class="text-lg color-black mt-2">Ведущий, конкурсы, поздравления</p>
+                </div>
+            </div>
+            <div class="relative flex items-center justify-between group">
+                <div
+                    class="flex items-center justify-center w-14 h-14 rounded-full border-4 border-background-light glass-card color-dark-orange shadow-md shrink-0 z-10">
+                    <span class="material-symbols-outlined text-2xl">bedtime</span>
+                </div>
+                <div class="w-[calc(100%-4.5rem)] p-8 rounded-3xl glass-card shadow-lg">
+                    <time class="font-bold color-dark-orange text-2xl block mb-1">01:30</time>
+                    <div class="text-xl font-bold color-black">Завершение вечера</div>
+                </div>
+            </div>
+            <div class="relative flex items-center justify-between group">
+                <div
+                    class="flex items-center justify-center w-14 h-14 rounded-full border-4 border-background-light glass-card color-dark-orange shadow-md shrink-0 z-10">
+                    <span class="material-symbols-outlined text-2xl">directions_bus</span>
+                </div>
+                <div class="w-[calc(100%-4.5rem)] p-8 rounded-3xl glass-card shadow-lg">
+                    <time class="font-bold color-dark-orange text-2xl block mb-1">02:00</time>
+                    <div class="text-xl font-bold color-black">Обратный трансфер</div>
+                    <p class="text-sm color-black mt-2 italic font-normal leading-tight">(время выезда не окончательно
+                        и зависит от окончания мероприятия)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-20 pb-5 px-6 text-center">
+        <h2 class="font-bold mb-8 color-black text-xl">Ждем вас!</h2>
+        <p class="color-black mb-14 max-w-sm mx-auto text-2xl leading-relaxed">Будем рады разделить
+            этот особенный день с вами.</p>
+        <div class="mt-20 opacity-40 text-lg">
+            © 2026 С любовью, Даниил и Надежда
+        </div>
+    </div>
+
+</body>
+
+</html>
